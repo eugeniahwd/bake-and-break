@@ -5,7 +5,7 @@ import TaskForm from "../components/TaskForm";
 import TaskList from "../components/TaskList";
 import StickerBackground from "../components/StickerBackground";
 
-const API = "https://friendly-intuition-production-6d8d.up.railway.app/";
+const API = "https://friendly-intuition-production-6d8d.up.railway.app";
 
 function AppPage() {
   const [tasks, setTasks] = useState([]);
